@@ -8,7 +8,7 @@
 
 
 
-// 1.
+// Q1.
 
 const inputtable = [1,2,3,4,5,6,7,8,9,10];
 
@@ -16,7 +16,7 @@ const inputtable = [1,2,3,4,5,6,7,8,9,10];
 console.log("1.\ninputtable: "+inputtable); 
 
 
-// 2.
+// Q2.
 
 // a
 
@@ -29,6 +29,7 @@ const fiveTable = inputtable.map(x => x*5);
 console.log("\n2.a \nfiveTable: "+fiveTable); 
 
 // b
+
 // Using the Array.prototype.map() to functionally 
 //filter the required elements from the given array. 
 const thirteenTable = inputtable.map(y => y*13); 
@@ -48,7 +49,7 @@ console.log("\n2.c\nthirteenTable: "+squaresTable);
 
 
 
-// 3.
+// Q3.
 
 // Hardcoding an array from 1 to 100
 const numSet = [1,2,3,4,5,6,7,8,9,10,  
@@ -71,7 +72,7 @@ console.log("\n3.\noddMultiplesFive: "+oddMultiplesFive);
 
 
 
-// 4.
+// Q4.
 
 // A recursive function which returns the sum of all Even multiples of 7 between low and high.
 // The running sum is stored as the accumulator parameter but no variable is ever muted. 
@@ -104,7 +105,8 @@ console.log("\n4.\nSum of even multiples between 1-100: "+a);
 
 
 
-// 5.
+// Q5.
+
 // A curried function that will calculate the volume of a cylinder with given radius and height.
 
 function cylinder_volume(r) //first parameter
@@ -122,7 +124,7 @@ console.log("\n5.\nVolume of Cylinder: "+x); // Printing the result
 
 
 
-// 6.
+// Q6.
 
 // Function provided for the assignment which wraps content with HTML tags. 
 
@@ -154,10 +156,10 @@ console.log("\n6.\n"+table);
 
 
 
-// 7.
 
 
-// 8.
+
+// Q8.
 
 // Generic function to find odd or even multiples of any number froma given array and plae it in a new array functionally. 
 // The parameter "odd" can either be integers '1' or '0' --> 1 for when we need odd multiples and 0 for when we need even.
